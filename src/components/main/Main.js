@@ -36,9 +36,9 @@ function Main() {
   }, []);
 
   return (
-    <div className="App" style={{ marginTop: sticky.offset }}>
+    <div className="App">
       <div className="header">
-        <h1>Bitcoin is eating the World</h1>
+        <h1>Bitcoin vs World</h1>
         <h2>View the charts bellow</h2>
       </div>
       <Router>
@@ -48,17 +48,17 @@ function Main() {
           ref={headerRef}
         >
           <Link to="/">
-            <h3>Crypto</h3>
+            <h3>BTC vs Crypto</h3>
           </Link>
           <Link to="/real-estate">
-            <h3>Real Estate</h3>
+            <h3>BTC vs Real Estate</h3>
           </Link>
 
           <Link to="/stocks">
-            <h3>Stocks</h3>
+            <h3>BTC vs Stocks</h3>
           </Link>
           <Link to="/countries">
-            <h3>Countries</h3>
+            <h3>BTC vs Countries</h3>
           </Link>
         </div>
 

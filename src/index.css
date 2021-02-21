@@ -17,7 +17,7 @@
 }
 body {
   font-family: var(--font-family);
-  max-width: 10240px;
+  max-width: 1240px;
 margin: 0 auto;
 padding: 0 0.5rem;
 display: flex;

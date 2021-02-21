@@ -1,5 +1,6 @@
 .App {
-    max-width: 1140px;
+  max-width: 1240px;
+  
 }
 
 .header {
@@ -21,10 +22,18 @@
 
    
   .navbar {
+    width: 100%;
     overflow: hidden;
     display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 0 0 3rem 0;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .navbar  {
+       font-size: .7em;
+      }
   }
    
   .navbar a {
@@ -36,24 +45,12 @@
     text-decoration: none;
   }
    
-
-   
- 
-   
-  .fakeimg {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
-  }
-   
    
   .sticky {
-    position: fixed;
-    top: 0;
-    overflow:inherit;
-    width: 1140px;
+    /* position: fixed;
+    top: 0; */
+    /* overflow:inherit; */
+
   }
    
 
