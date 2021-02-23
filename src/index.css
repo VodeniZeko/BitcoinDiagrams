@@ -1,58 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
 :root {
-  --text-color: #f0f0f0;
-  --text-color-secondary: #b3c5cd;
-
-  --primary-color: #21b6b7;
-  --font-family: "Poppins", sans-serif;
-
-  --background-color: #252329;
-  --background-color-light: #3c393f;
-  --background-color-dark: #120f13;
-
+  --primary-color: #5991ff;
+  --primary-color__hover: #4e80e3;
+  --primary-color__active: #3f68b7;
+  --primary-gradient-start-color: #b6cbff;
+  --primary-background-color: #202c40;
+  --positive-color: #61bf8a;
+  --positive-background-color: #074823;
+  --negative-color: #ff8e8e;
+  --negative-background-color: #5a2f2f;
+  --shadow-color-1: rgb(80 80 80/15%);
+  --shadow-color-2: rgb(255 255 255/33%);
+  --text1-color: #fff;
+  --text2-color: #e1e1e1;
+  --text3-color: #bcbcbc;
+  --text4-color: #757575;
+  --text5-color: #353535;
+  --ui-bg-color: #11111d;
+  --ui-disabled-color: #ededed;
+  --ui-bg-1-color: #1a1c29;
+  --ui-bg-1-color__hover: #2a2d3e;
+  --ui-bg-1-color__active: #272a39;
+  --ui-loading-color: #343748;
+  --ui-loading-color__highlight: #343748;
   --box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
-
-  --font-family: "Poppins", sans-serif;
+  --font-family: "Josefin Sans", "San Serif";
 
 
 }
 body {
-  font-family: var(--font-family);
-  max-width: 1240px;
+font-family: var(--font-family);
+
 margin: 0 auto;
 padding: 0 0.5rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: var( --background-color);
-color: var(--text-color);
+background-color: var(--ui-bg-color);
+color: var(--text1-color);
 }
 
  h1{
   font-size: 2em;
+  color: var(--text1-color);
  }
  h2{
   font-size: 1.5em;
-  color: var(-text-color-secondary);
+  color: var(--text2-color);
  }
  h3{
   font-size: 1.3em;
-  color: var(-text-color-secondary);
+  color: var(--text3-color);
  }
  h4{
   font-size: 1em;
-  color: var(-text-color-secondary);
+  color: var(--text4-color);
  }
  h5{
   font-size: .8em;
-  color: var(-text-color-secondary);
+  color: var(--text5-color);
  }
  h6{
   font-size: .7em;
-  color: var(-text-color-secondary);
+  color: var(--text1-color);
  }
 
  p{
-   color: var(-text-color-secondary);
+  color: var(--text5-color);
  }
+
+
 

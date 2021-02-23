@@ -1,0 +1,32 @@
+  //GET TODAYS DATE
+  //   let dd = String(new Date().getDate()).padStart(2, "0");
+  //   let mm = String(new Date().getMonth() + 1).padStart(2, "0");
+  //   let yyyy = new Date().getFullYear();
+  //   let today = dd + "-" + mm + "-" + yyyy;
+
+  //24H Timeframe UNIX TIMESTAMP
+  //   let ts = Math.round(new Date().getTime() / 1000);
+  //   let tsYesterday = ts - 24 * 3600;
+  //   console.log(ts);
+  //   console.log(tsYesterday);
+
+
+
+MULTIPLE CALLS
+// function getData() {
+  //   let URL1 = `SOME URLS`;
+  //   let URL2 = `SOME URLS`;
+  //   let URL3 = `SOME URLS`;
+  //   const promise1 = axios.get(URL1);
+  //   const promise2 = axios.get(URL2);
+  //   const promise3 = axios.get(URL3);
+  //   Promise.all([promise1, promise2, promise3]).then(function (values) {
+  //    console.log(values)
+  //   });
+  // }
+
+  // useEffect(() => {
+  //   getData();
+  // }, []);
+
+
