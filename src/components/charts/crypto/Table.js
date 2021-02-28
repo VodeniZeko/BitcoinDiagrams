@@ -69,6 +69,7 @@ const useStyles = makeStyles({
     width: "100%",
     backgroundColor: "#202c40",
     margin: "0 auto",
+    borderRadius: "2%",
   },
   tableHead: {
     color: "#fff",
@@ -80,7 +81,7 @@ const useStyles = makeStyles({
     maxHeight: 640,
   },
   tableCell: {
-    color: "#fff",
+    color: "#b6cbff",
   },
 });
 
@@ -100,7 +101,7 @@ export default function StickyHeadTable({ markets }) {
 
   return (
     <div style={{ padding: "1rem 0" }}>
-      <h1 style={{ textAlign: "center" }}> Top 100 Crypto 📌 </h1>
+      <h1 style={{ textAlign: "center" }}> Top 100 Coins 📌 </h1>
       <Paper className={classes.root}>
         {markets ? (
           <TableContainer className={classes.container}>

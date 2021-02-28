@@ -4,7 +4,7 @@
   --primary-color: #5991ff;
   --primary-color__hover: #4e80e3;
   --primary-color__active: #3f68b7;
-  --primary-gradient-start-color: #b6cbff;
+  --primary-data-color: #b6cbff;
   --primary-background-color: #202c40;
   --positive-color: #61bf8a;
   --positive-background-color: #074823;
@@ -29,18 +29,18 @@
 
 
 }
-body {
+html {
+background-color: var(--ui-bg-color);
 font-family: var(--font-family);
-
 margin: 0 auto;
 padding: 0 0.5rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: var(--ui-bg-color);
 color: var(--text1-color);
 }
+
 
  h1{
   font-size: 2em;

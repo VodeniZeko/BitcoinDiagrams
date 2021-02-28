@@ -1,7 +1,7 @@
 import React from "react";
 
 function index(props) {
-  return <div>hi from real estate</div>;
+  return <div>hi from Real estate</div>;
 }
 
 export default index;

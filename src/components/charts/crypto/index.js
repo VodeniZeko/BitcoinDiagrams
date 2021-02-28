@@ -40,7 +40,7 @@ function Index() {
     <>
       {markets || global ? (
         <>
-          <Global global={global.data} />
+          <Global global={global} />
           <Info markets={markets} />
           <Table markets={markets} />
         </>

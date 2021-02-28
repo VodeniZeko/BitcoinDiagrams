@@ -1,6 +1,6 @@
 import Main from "./components/main/Main";
-import Layout from "./components/layout";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import "./App.css";
 
 const theme = createMuiTheme({
   typography: {
@@ -11,9 +11,7 @@ const theme = createMuiTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Layout>
-        <Main />
-      </Layout>
+      <Main />
     </ThemeProvider>
   );
 }

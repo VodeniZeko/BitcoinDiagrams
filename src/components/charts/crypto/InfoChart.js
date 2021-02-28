@@ -54,10 +54,10 @@ export default function InfoCharts({ coinId }) {
         <Area
           type="monotone"
           dataKey="uv"
-          stroke="#fff"
+          stroke=" #e1e1e1"
           fillOpacity={0.3}
-          fill="#074823"
-          dot={{ stroke: "#fff", strokeWidth: 0.5 }}
+          fill="transparent"
+          dot={{ stroke: "#fff", strokeWidth: 3 }}
         />
       </AreaChart>
     </ResponsiveContainer>
