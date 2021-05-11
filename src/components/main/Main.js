@@ -13,7 +13,6 @@ import RealEstate from "../charts/realEstate";
 import Countries from "../charts/countries";
 import Stocks from "../charts/stocks";
 import NoMatch from "../noMatch";
-import Player from "../../utils/music/Player";
 import Footer from "../footer";
 
 import {
@@ -36,7 +35,7 @@ import TimelineOutlinedIcon from "@material-ui/icons/TimelineOutlined";
 import PublicOutlinedIcon from "@material-ui/icons/PublicOutlined";
 import HomeWorkOutlinedIcon from "@material-ui/icons/HomeWorkOutlined";
 
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 const drawerWidth = 220;
 
