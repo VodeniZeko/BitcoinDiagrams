@@ -1,8 +1,10 @@
 import Main from "./components/main/Main";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import "./App.css";
 
 const theme = createMuiTheme({
+  root: {
+    width: "100%",
+  },
   typography: {
     fontFamily: ["Roboto", "sans-serif"].join(","),
   },

@@ -30,7 +30,7 @@
 
 }
 html {
-background-color: var(--ui-bg-color);
+background-color: var(  --ui-bg-1-color);
 font-family: var(--font-family);
 margin: 0 auto;
 padding: 0 0.5rem;

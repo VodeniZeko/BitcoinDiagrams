@@ -94,6 +94,9 @@ const useStyles = makeStyles((theme) => ({
     width: "80vw",
     maxWidth: "1050px",
     backgroundColor: " #1a1c29",
+    "@media (max-width: 500px)": {
+      width: "100vw",
+    },
   },
   listItem: {
     display: "flex",

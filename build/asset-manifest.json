@@ -1,22 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9c5f9be.chunk.css",
-    "main.js": "/static/js/main.110589bd.chunk.js",
-    "main.js.map": "/static/js/main.110589bd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a3ec6abe.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a3ec6abe.js.map",
-    "static/js/2.cbcf0a75.chunk.js": "/static/js/2.cbcf0a75.chunk.js",
-    "static/js/2.cbcf0a75.chunk.js.map": "/static/js/2.cbcf0a75.chunk.js.map",
-    "static/js/3.202bc78b.chunk.js": "/static/js/3.202bc78b.chunk.js",
-    "static/js/3.202bc78b.chunk.js.map": "/static/js/3.202bc78b.chunk.js.map",
+    "main.css": "/static/css/main.8123836d.chunk.css",
+    "main.js": "/static/js/main.a449e675.chunk.js",
+    "main.js.map": "/static/js/main.a449e675.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3d19193e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3d19193e.js.map",
+    "static/js/2.e1a886ce.chunk.js": "/static/js/2.e1a886ce.chunk.js",
+    "static/js/2.e1a886ce.chunk.js.map": "/static/js/2.e1a886ce.chunk.js.map",
+    "static/js/3.da547741.chunk.js": "/static/js/3.da547741.chunk.js",
+    "static/js/3.da547741.chunk.js.map": "/static/js/3.da547741.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d9c5f9be.chunk.css.map": "/static/css/main.d9c5f9be.chunk.css.map",
-    "static/js/2.cbcf0a75.chunk.js.LICENSE.txt": "/static/js/2.cbcf0a75.chunk.js.LICENSE.txt"
+    "static/css/main.8123836d.chunk.css.map": "/static/css/main.8123836d.chunk.css.map",
+    "static/js/2.e1a886ce.chunk.js.LICENSE.txt": "/static/js/2.e1a886ce.chunk.js.LICENSE.txt",
+    "static/media/'Relax' - Smooth Trap Soul Hip Hop Beat Chill Instrumental (Prod. Tower B. x L.E.M.)-fbv5tDdxiD0.2bdb80e7.webm": "/static/media/'Relax' - Smooth Trap Soul Hip Hop Beat Chill Instrumental (Prod. Tower B. x L.E.M.)-fbv5tDdxiD0.2bdb80e7.webm",
+    "static/media/Anton Ishutin - Gone (Original Mix) [Video Edit]-pZDMzqJf1qE.711439ae.webm": "/static/media/Anton Ishutin - Gone (Original Mix) [Video Edit]-pZDMzqJf1qE.711439ae.webm",
+    "static/media/B L A C K   R O S E - Emotional Dark Trap Beat (Prod.Tower x Juanko x Marzen)-H0SNgX-7HkQ.2913bbde.webm": "/static/media/B L A C K   R O S E - Emotional Dark Trap Beat (Prod.Tower x Juanko x Marzen)-H0SNgX-7HkQ.2913bbde.webm",
+    "static/media/Chill Smooth Guitar Rap Beat _ Higher (Prod. Syndrome) [NEW 2018]-08AicqtTPyU.c9f00c19.webm": "/static/media/Chill Smooth Guitar Rap Beat _ Higher (Prod. Syndrome) [NEW 2018]-08AicqtTPyU.c9f00c19.webm",
+    "static/media/Drake Type Beat - 'Drop It' _ Free Type Beat _ Rap_Trap Instrumental 2021-DTJSSL7Dvlw.1266f800.webm": "/static/media/Drake Type Beat - 'Drop It' _ Free Type Beat _ Rap_Trap Instrumental 2021-DTJSSL7Dvlw.1266f800.webm",
+    "static/media/Duke Dumont - I Got U ft. Jax Jones (Official Music Video)-FHCYHldJi_g.b61b71a4.webm": "/static/media/Duke Dumont - I Got U ft. Jax Jones (Official Music Video)-FHCYHldJi_g.b61b71a4.webm",
+    "static/media/Hard Aggressive Choir Rap Beat (Joker)-LW7oQXzYq5Y.abd920c1.webm": "/static/media/Hard Aggressive Choir Rap Beat (Joker)-LW7oQXzYq5Y.abd920c1.webm",
+    "static/media/J Balvin, Willy William - Mi Gente (Official Video)-wnJ6LuUFpMo.fd72fce1.webm": "/static/media/J Balvin, Willy William - Mi Gente (Official Video)-wnJ6LuUFpMo.fd72fce1.webm",
+    "static/media/Mozart Hip Hop Remix-E9Qhb2Q8AYc.26a9da96.webm": "/static/media/Mozart Hip Hop Remix-E9Qhb2Q8AYc.26a9da96.webm",
+    "static/media/Pascal Junior - Holdin' On [Ultra Music]-CaqO-xvwtFQ.b780e03f.webm": "/static/media/Pascal Junior - Holdin' On [Ultra Music]-CaqO-xvwtFQ.b780e03f.webm",
+    "static/media/Post Malone - rockstar ft. 21 Savage-UceaB4D0jpo.e8a96c70.webm": "/static/media/Post Malone - rockstar ft. 21 Savage-UceaB4D0jpo.e8a96c70.webm",
+    "static/media/Regard - Ride It (Lyrics)-GPRK1ZRGaDc.946b3262.webm": "/static/media/Regard - Ride It (Lyrics)-GPRK1ZRGaDc.946b3262.webm",
+    "static/media/cruising.e288205d.webm": "/static/media/cruising.e288205d.webm"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3ec6abe.js",
-    "static/js/2.cbcf0a75.chunk.js",
-    "static/css/main.d9c5f9be.chunk.css",
-    "static/js/main.110589bd.chunk.js"
+    "static/js/runtime-main.3d19193e.js",
+    "static/js/2.e1a886ce.chunk.js",
+    "static/css/main.8123836d.chunk.css",
+    "static/js/main.a449e675.chunk.js"
   ]
 }

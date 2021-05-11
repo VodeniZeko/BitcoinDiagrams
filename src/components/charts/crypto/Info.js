@@ -24,6 +24,9 @@ const useStyles = makeStyles((theme) => ({
   gridList: {
     flexWrap: "nowrap",
     transform: "translateZ(0)",
+    "@media (max-width: 900px)": {
+      height: "400px",
+    },
   },
   paper: {
     backgroundColor: "#202c40",
@@ -42,12 +45,18 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "1rem",
     "@media (max-width: 900px)": {
       height: "290px",
+      width: "100%",
     },
   },
   logoArea: {
     display: "flex",
     textAlign: "left",
     marginTop: " 10%",
+    "@media (max-width: 500px)": {
+      display: "flex",
+      flexDirection: "column",
+      textAlign: "center",
+    },
   },
 }));
 

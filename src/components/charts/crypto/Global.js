@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
     transform: "translateZ(0)",
     width: "100%",
     margin: "0",
+    height: "180px",
   },
   paper: {
     margin: theme.spacing(1),

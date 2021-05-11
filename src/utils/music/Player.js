@@ -20,7 +20,14 @@ const textArray = [a, b, c, d, e, f, g, h, i, j, k, l, m];
 const url = textArray[Math.floor(Math.random() * textArray.length)];
 
 const Player = () => {
-  return <ReactAudioPlayer src={url} autoPlay controls loop />;
+  return (
+    <ReactAudioPlayer
+      src={url}
+      controls
+      loop
+      style={{ width: "300px", height: "30px" }}
+    />
+  );
 };
 
 export default Player;
