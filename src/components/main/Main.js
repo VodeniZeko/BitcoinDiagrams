@@ -139,7 +139,12 @@ export default function Main() {
           }}
         >
           <List component="nav" aria-label="main navigation icons">
-            <NavLink to="/">
+            <NavLink
+              to="/"
+              activeStyle={{
+                color: "transparent",
+              }}
+            >
               <ListItem
                 className={classes.listItem}
                 selected={selectedIndex === 0}
@@ -166,7 +171,7 @@ export default function Main() {
               </ListItem>
             </NavLink>
 
-            <NavLink to="/real-estate">
+            {/* <NavLink to="/real-estate">
               <ListItem
                 className={classes.listItem}
                 selected={selectedIndex === 1}
@@ -245,7 +250,7 @@ export default function Main() {
                   }
                 />
               </ListItem>
-            </NavLink>
+            </NavLink> */}
           </List>
 
           <div className={classes.toolbar}>
